@@ -1,0 +1,7 @@
+ENV:
+- cài đặt jdk 8 + 
+- cài đặt apache maven
+Setup:
+
+1. Tạo blank project maven:
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
